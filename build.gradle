@@ -153,10 +153,10 @@ class FinalSetupTask extends DefaultTask {
 }
 
 tasks.register("finalSetup", FinalSetupTask) {
-    groupId = "com.example" // Group-ID. If using a domain, make 100% sure you own it. If you don't own one, use either "me.yourusername" or "io.github.yourgithubusername" if you have a github user
-    modId = "modid"  // Mod-ID. Please only use lowercase a-z characters
-    modName = "Example Mod" // Mod-Name - Will be used in mods like ModMenu to show your mod name.
-    modDescription = "Some Mod man, idk either lol. It's me, UwU OwO" // Description. Same as above, but for a Description
-    modAuthor = "Your beautiful name <3" // Author of the Mod.
-    modVersion = "1.0+build.1" // Mod-Version. You can use multiple schemes, i like to use schemes like "1.20.2.build.*" for my mods, some also prefer schemes like "1.0.1" or "1.0+build.1". If you don't know, simply use a semantic scheme, aka "major.minor.patch", ie. "1.0.0"
+    groupId = "de.chloedev" // Group-ID. If using a domain, make 100% sure you own it. If you don't own one, use either "me.yourusername" or "io.github.yourgithubusername" if you have a github user
+    modId = "noframeratelimit"  // Mod-ID. Please only use lowercase a-z characters
+    modName = "No Framerate Limit" // Mod-Name - Will be used in mods like ModMenu to show your mod name.
+    modDescription = "Removes the pesky fps-limit on the title-screen." // Description. Same as above, but for a Description
+    modAuthor = "Kiana" // Author of the Mod.
+    modVersion = "1.20.2+build.1" // Mod-Version. You can use multiple schemes, i like to use schemes like "1.20.2.build.*" for my mods, some also prefer schemes like "1.0.1" or "1.0+build.1". If you don't know, simply use a semantic scheme, aka "major.minor.patch", ie. "1.0.0"
 }

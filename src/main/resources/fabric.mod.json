@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "<mod_id>",
+  "id": "noframeratelimit",
   "version": "${version}",
-  "name": "<mod_name>",
-  "description": "<mod_description>",
+  "name": "No Framerate Limit",
+  "description": "Removes the pesky fps-limit on the title-screen.",
   "authors": [
-    "<author>"
+    "Kiana"
   ],
   "license": "MIT",
-  "icon": "assets/<mod_id>/icon.png",
+  "icon": "assets/noframeratelimit/icon.png",
   "environment": "*",
   "mixins": [
-    "<mod_id>.mixins.json"
+    "noframeratelimit.mixins.json"
   ],
   "depends": {
     "fabric-api": "*"
   },
-  "accessWidener": "<mod_id>.accesswidener"
+  "accessWidener": "noframeratelimit.accesswidener"
 }
